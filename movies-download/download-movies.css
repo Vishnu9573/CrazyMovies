@@ -185,6 +185,10 @@ footer {
         display: none;
     }
 
+    header .return {
+        top: 6px;
+    }
+
     /* .md-block {
         max-width: 55%;
         margin: auto;
