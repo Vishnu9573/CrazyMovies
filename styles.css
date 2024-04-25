@@ -128,6 +128,19 @@ i {
   font-size: 1.8vw;
 }
 
+/* Navbar css code for mobile responsive starts */
+
+.nav-container {
+  background: #222121;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar css code for mobile responsive ends */
+
 /* main header code end's */
 
 /* navigation for languages start's */
