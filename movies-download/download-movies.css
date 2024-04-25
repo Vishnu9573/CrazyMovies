@@ -185,9 +185,8 @@ footer {
         display: none;
     }
 
-    header .return {
-        position: absolute;
-        top: 6px;
+    header .return a:hover {
+        display: none;
     }
 
     /* .md-block {
