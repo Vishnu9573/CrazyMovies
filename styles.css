@@ -139,6 +139,26 @@ i {
   align-items: center;
 }
 
+.nav-container.sticky-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transition: 2s;
+}
+
+/* .nav-center {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+} */
+
+.nav-links-main {
+  display: none;
+}
+
 /* Navbar css code for mobile responsive ends */
 
 /* main header code end's */
@@ -470,7 +490,10 @@ footer {
   #gallery .year  {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     column-gap: 15px;
+  }
 
+  .nav-links-main {
+    display: block;
   }
 
   /* .header-text .sub-header {
