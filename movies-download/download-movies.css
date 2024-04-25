@@ -186,6 +186,7 @@ footer {
     }
 
     header .return {
+        position: absolute;
         top: 6px;
     }
 
