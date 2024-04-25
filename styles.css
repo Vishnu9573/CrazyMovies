@@ -140,7 +140,8 @@ i {
 }
 
 .sidebar-btn {
-  justify-self: flex-start;
+  position: absolute;
+  left: 10px;
 }
 
 .nav-container.sticky-container {
