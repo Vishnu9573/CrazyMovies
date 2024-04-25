@@ -186,7 +186,8 @@ footer {
     }
 
     header .return a:hover {
-        display: none;
+        background-color: transparent;
+        color: white;
     }
 
     /* .md-block {
