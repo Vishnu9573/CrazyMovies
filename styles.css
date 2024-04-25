@@ -139,7 +139,7 @@ i {
   align-items: center;
 }
 
-.sidebar-btn {
+.sidebar-btn i {
   position: absolute;
   left: 10px;
 }
