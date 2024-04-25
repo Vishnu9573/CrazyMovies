@@ -139,6 +139,10 @@ i {
   align-items: center;
 }
 
+.sidebar-btn {
+  justify-self: flex-start;
+}
+
 .nav-container.sticky-container {
   position: fixed;
   top: 0;
