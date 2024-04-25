@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Club || home page</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="img/m-Photoroom.png-Photoroom.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gurajada&family=Laila:wght@300;400;500;600;700&family=Rampart+One&family=Syne+Mono&family=Tilt+Neon&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a target="_parent" href="../index.html"><i class="fa-regular fa-house icon1"></i>home</a></li>
+                <li><a target="_parent" href="./about.html"><i class="fa-regular fa-circle-exclamation icon2"></i>about</a></li>
+                <li><a target="_parent" href="./updates.html"><i class="fa-regular fa-bullhorn"></i>updates</a></li>
+                <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Your%20insightful%20suggestions%20are%20greatly%20appreciated.%20(remove%20this%20text%20before%20sending%20your%20suggestion.)"><i class="fa-regular fa-lightbulb"></i>suggestion</a></li>
+                <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Please%20define%20which%20movie%20link%20is%20broken.%20(remove%20this%20text%20before%20sending%20email.)"><i class="fa-regular fa-link-slash"></i>broken-link</a></li>
+                <!-- <li><a target="_parent" href="./contact.html"><i class="fa-regular fa-envelope icon3"></i>contact</a></li> -->
+                <!-- <li><a target="_blank" href="html/testing.html">testing</a></li> -->
+            </ul>
+        </nav>
+        <input type="search" id="searchInput" placeholder="Search...">
+    </header>
+    <div id="select">
+        <select name="pop-up" id="pop-up" onchange="redirectToLink()">
+            <option value="selected" selected></option>
+            <option value="../index.html"><a href="../index.html">home</a></option>
+            <option value="./about.html"><a href="./about.html">about</a></option>
+            <option value="./updated.html"><a href="./updates.html">updates</a></option>
+            <option value="mailto:moviesclubsuggestion@gmail.com"><a target="_top" href="mailto:moviesclubsuggestion@gmail.com?subject=Your%20insightful%20suggestions%20are%20greatly%20appreciated.%20(remove%20this%20text%20before%20sending%20your%20suggestion.)">suggestion</a></option>
+            <option value="mailto:moviesclubsuggestion@gmail.com"><a href="mailto:moviesclubsuggestion@gmail.com?subject=Please%20define%20which%20movie%20link%20is%20broken.%20(remove%20this%20text%20before%20sending%20email.)">broken link</a></option>
+        </select>
+        <div class="icon-container"><i class="fa-regular fa-bars"></i></div>
+    </div>
+    <section class="updates-list">
+        <p>version 0.5: </p><br>
+        <br>
+        <p></p><br>
+        <br>
+    </section>
+    <footer>
+        <div id="footer">&copy;All rights reserved Movies Club 2024.</div>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Gurajada&family=Laila:wght@300;400;500;600;700&family=Rampart+One&family=Syne+Mono&family=Tilt+Neon&family=Unbounded:wght@200..900&family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(0, 255, 0, 0.9);
+    color: white;
+}
+
+body {
+    background: rgb(26, 25, 25);
+}
+
+/* header code start's */
+
+header {
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+}
+
+header nav {
+    max-width: 400px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style: none;
+    color: white;
+    margin-top: 6px;
+    font-family: laila, sans-serif;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+header nav ul li a:hover {
+    color: rgb(37, 36, 36);
+    background-color: rgb(106, 255, 0);
+}
+
+.icon2, .icon3 {
+    vertical-align: middle;
+}
+
+i {
+    margin-right: 5px;
+}
+
+/* header code end's */
+
+.header .main-header {
+    color: white;
+    padding-top: 50px;
+    padding-left: 1.1pc;
+    font-family: zen tokyo zoo;
+    text-transform: uppercase;
+    text-decoration: underline;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.paragraph-list {
+    max-width: 60%;
+    margin: 0px 16px;
+    color: white;
+}

@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(86, 255, 86, 0.9);
+    color: white;
+}
+
+/* body::-webkit-scrollbar {
+            width: 12px;
+}
+        
+body::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #363636;
+} */
+
+body {
+    background: rgb(26, 25, 25);
+}
+
+/* header code start's */
+
+header {
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+}
+
+header nav {
+    max-width: 500px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style: none;
+    color: white;
+    margin-top: 6px;
+    font-family: laila, sans-serif;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 15px;
+    border: 1px solid transparent;
+}
+
+header nav ul li a:hover {
+    /* color: black; */
+    border-color: rgb(106, 255, 0);
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.icon3, .icon2 {
+    vertical-align: middle;
+}
+
+i {
+    color: lime;
+    text-shadow: 0.1px 0.1px 5px lime;
+    margin-right: 5px;
+}
+
+/* header code end's */
+
+/* main header code start's */
+
+.header-text {
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.header-text>.main-header {
+    font-family: zen tokyo zoo, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 5vw;
+}
+
+.header-text>.sub-header {
+    font-family: tilt neon, sans-serif;
+    font-size: 20px;
+}
+
+/* main header code end's */
+
+/* this if just for about option code */
+
+#paragraph {
+    max-width: 60%;
+    margin: auto 40px;
+    padding-top: 60px;
+}
+
+#paragraph .paragraph-1 {
+    color: white;
+    font-family: fredoka;
+}
+
+/* this is end for the about option css code */
+
+/* navigation for languages start's */
+
+#movie-languages nav {
+    max-width: 300px;
+    margin: auto;
+}
+
+#movie-languages nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#movie-languages nav ul li {
+    color: white;
+    list-style: none;
+}
+
+#movie-languages nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-family: tilt neon;
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    /* z-index: -1; */
+}
+
+#movie-languages nav ul li a:hover {
+    color: black;
+    background-color: rgb(225, 255, 0);
+}
+
+/* navigatiov for languages end's */
+
+/* gallery code start's */
+
+#gallery {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    row-gap: 60px; */
+}
+
+/* #gallery .year-2024 {
+    grid-column: 1/7;
+}
+
+#gallery .year-2023 {
+    grid-column: 1/7;
+}
+
+#gallery .year-2022 {
+    grid-column: 1/7;
+}
+
+#gallery .year-2021 {
+    grid-column: 1/7;
+}
+
+#gallery .year-2020 {
+    grid-column: 1/7;
+} */
+
+#gallery .year {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    row-gap: 60px;
+}
+
+#gallery .year .image {
+    border: 1px solid white;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.image a {
+    text-decoration: none;
+}
+
+#gallery .image img {
+    border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image .content {
+    text-align: center;
+    position: relative;
+    top: -2px;
+    color: white;
+    font-family: gurajada;
+    font-size: 25px;
+    z-index: -1;
+}
+
+#gallery .year-header {
+    color: white;
+    font-family: coda;
+    font-size: 30px;
+    /* text-align: center; */
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+/* gallery code end's */
+
+/* Menu button code start here */
+
+#menu-button {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+#menu-button i {
+    background: lime;
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.icon-container {
+    display: none;
+}
+
+/* menu button code end here */
+
+/* there is still some code(css) 
+todo: so just a comment for that */
+
+/* check the top line and just remove this comment in future that's all buddy :) 
+  * definetly don't forget cause this is just for a some other code for the extra css
+*/
+
+/* responsive css code start's */
+
+@media only screen and (max-width: 760px) {
+    header nav ul {
+        display: none;
+    }
+
+    #select #pop-up {
+        position: fixed;
+        top: 10px;
+        left: 5px;
+        width: 25px;
+        outline: none;
+        border: 2px solid yellow;
+        background: lime;
+        appearance: none;
+        border-radius: 5px;
+        left: 8px;
+    }
+
+    #select #pop-up option {
+        color: white;
+    }
+
+    #select .icon-container {
+        display: block;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 4px;
+    }
+
+    #select .icon-container i {
+        color: white;
+        position: relative;
+        top: 12.5px;
+        left: 10.3px;
+        font-size: 13px;
+        z-index: -1;
+    }
+
+    
+
+    #menu-button {
+        display: block;
+    }
+
+    #paragraph {
+        max-width: 100%;
+    }
+}
+
+/* @media only screen and (max-width: 1200px) {
+    #gallery .year {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .header-text .sub-header {
+        font-size: 15px;
+    }
+} */
+
+/* responsive css code end's */

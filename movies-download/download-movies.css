@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    background-color: rgba(0, 255, 0, 0.7);
+    color: white;
+}
+
+body {
+    background: rgb(26, 25, 25);
+    color: white;
+}
+
+/* header code start's */
+
+header {
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+    border-bottom: 1px solid lime;
+}
+
+header .return {
+    color: white;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+header .return a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+header .return a:hover {
+    background: lime;
+    color: rgb(6, 2, 38);
+}
+
+header div a .header {
+    font-size: 15px;
+    font-family: verdana;
+    position: absolute;
+    left: 26px;
+    top: -2px;
+}
+
+/* header code end's */
+
+/* movie download code start's */
+
+.md-block {
+    max-width: 95%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.md-block .poster img {
+    width: 250px;
+    height: 370px;
+    object-fit: fill;
+    border-radius: 7px;
+    border: 0.00000000001px dotted rgba(0, 255, 0, 0.3);
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.md-block .poster p {
+    text-align: center;
+    font-family: ibm plex sans;
+}
+
+.md-block .movie-name2 {
+    display: none;
+}
+
+.md-block .download-links {
+    margin-top: 30px;
+    /* width: 500px; */
+}
+
+.md-block .download-links h2 {
+    text-align: center;
+    font-family: nunito;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    /* top: -15px; */
+}
+
+.md-block .download-links .vertical-line {
+    display: inline-block;
+    /* border-right: 1px solid #ccc; */
+    /* font-size: 30px; */
+}
+
+.md-block .download-links .resolution {
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-size: 20px;
+    padding: 30px 30px 30px;
+    font-family: IBM Plex Sans;
+    border: 2px solid white;
+}
+
+.md-block .download-links .resolution p::after {
+    content: "-";
+    padding-left: 6px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.md-block .download-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    position: relative;
+    top: -5px;
+    left: 2px;
+    float: right;
+}
+
+.md-block .download-links a:hover {
+    background-color: lime;
+    color: rgb(0, 0, 0);
+}
+
+.md-block .download-links .r-720, .md-block .download-links .r-1080 {
+    border-top: none;
+}
+
+/* .small {
+    font-size: 16px;
+} */
+
+/* movie download code end's */
+
+/* footer code start's */
+
+footer {
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid lime;
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    /* font-family: tenor sans; */
+}
+
+/* footer code end's */
+
+/* responsive code start's */
+
+@media only screen and (max-width: 760px) {
+    header div a .header {
+        display: none;
+    }
+
+    /* .md-block {
+        max-width: 55%;
+        margin: auto;
+        display: flex !important;
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-top: 60px !important;
+    } */
+
+    .md-block .poster img {
+        width: 200px;
+        height: 300px;
+    }
+
+    /* .md-block .download-links {
+        width: 300px;
+        margin-left: -50px;
+        margin-top: 50px;
+    } */
+
+    /* .md-block .download-links .resolution {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    } */
+
+    .md-block .download-links h2 {
+        font-size: 20px;
+        /* padding-bottom: 10px; */
+    }
+
+    .md-block .download-links p, a {
+        font-size: 13px;
+        position: relative;
+        top: 5px;
+    }
+
+    .md-block .download-links a {
+        position: relative;
+        top: 1px;
+    }
+
+    /* .md-block .download-links p {
+        padding-top: 5px;
+    } */
+
+    .md-block .poster .movie-name1 {
+        display: block;
+        font-size: 14px;
+    }
+
+    .movie-name2 {
+        display: none;
+    }
+
+    .footer {
+        font-size: 10px;
+        bottom: 8.7px;
+    }
+}
+
+/* responsive code end's */
+
+/* .md-block {
+    max-width: 95%;
+    margin: auto;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.md-block .poster img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 0.0001px dotted lime;
+}
+
+.md-block .poster p {
+    text-align: center;
+    font-family: ibm plex sans;
+}
+
+.md-block .movie-name1 {
+    text-align: center;
+    display: none;
+}
+
+.md-block .movie-name2 {
+    padding-right: 120px;
+}
+
+.md-block .download-links {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.md-block .download-links h2 {
+    text-align: center;
+    font-family: nunito;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+}
+
+.md-block .download-links .vertical-line {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+
+.md-block .download-links .resolution {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: IBM Plex Sans;
+    border: 2px solid white;
+} */
