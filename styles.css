@@ -147,13 +147,13 @@ i {
   font-size: 25px;
 }
 
-.nav-container.sticky-container {
+/* .nav-container.sticky-container {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
   transition: 2s;
-}
+} */
 
 /* .nav-center {
   width: 100%;
@@ -170,6 +170,10 @@ i {
 /* Navbar css code for responsive mobile ends */
 
 /* sidebar code for responsive mobile starts */
+
+aside {
+  display: none;
+}
 
 .sidebar-container {
   background-color: #1a1919;
@@ -402,6 +406,10 @@ footer {
     display: none;
   }
 
+  aside {
+    display: block;
+  }
+
   #select #pop-up {
     position: fixed;
     top: 10px;
@@ -503,6 +511,10 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
+  aside {
+    display: block;
+  }
+  
   #gallery .year  {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     column-gap: 15px;
