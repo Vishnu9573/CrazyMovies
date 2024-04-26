@@ -171,12 +171,9 @@ i {
 
 /* sidebar code for responsive mobile starts */
 
-aside {
-  display: none;
-}
-
 .sidebar-container {
   background-color: #1a1919;
+  display: none;
 }
 
 /* sidebar code for responsive mobile ends */
@@ -406,7 +403,7 @@ footer {
     display: none;
   }
 
-  aside {
+  .sidebar-container {
     display: block;
   }
 
@@ -511,10 +508,10 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
-  aside {
+  .sidebar-container {
     display: block;
   }
-  
+
   #gallery .year  {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     column-gap: 15px;
