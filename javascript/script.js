@@ -213,3 +213,42 @@ function updateTextContent() {
 }
 
 document.addEventListener('DOMContentLoaded', updateTextContent);
+
+
+
+
+// ? below code is for responsive mobile design sidebar
+
+const sidebarBtn = document.querySelector('.sidebar-btn');
+const sidebarContainer = document.querySelector('.sidebar-container');
+const closeBtn = document.querySelector('.close-btn');
+
+function openSidebar() {
+    sidebarContainer.classList.add('show-sidebar');
+}
+
+function closeSidebar() {
+    sidebarContainer.classList.remove('show-sidebar');
+}
+
+sidebarBtn.addEventListener('click', openSidebar);
+closeBtn.addEventListener('click', closeSidebar);
+
+
+
+
+
+
+// ? below code is for header scroll functioning
+
+let lastScrollTop = 0;
+const header = document.querySelector('.header');
+window.addEventListener('scroll', function() {
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop) {
+        header.style.top = "-40px";
+    } else {
+        header.style.top = "0";
+    }
+    lastScrollTop = scrollTop;
+});

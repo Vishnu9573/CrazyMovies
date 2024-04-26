@@ -42,6 +42,7 @@ header {
   position: fixed;
   z-index: 3;
   border-bottom: 3px solid linear-gradient(grey, white);
+  transition: 0.6s;
 }
 
 header nav {
@@ -127,6 +128,54 @@ i {
   font-family: tilt neon, sans-serif;
   font-size: 1.8vw;
 }
+
+/* Navbar css code for mobile responsive starts */
+
+.nav-container {
+  background: #222121;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-btn i {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  font-size: 25px;
+}
+
+.nav-container.sticky-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  transition: 2s;
+}
+
+/* .nav-center {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+} */
+
+.nav-links-main {
+  display: none;
+}
+
+/* Navbar css code for responsive mobile ends */
+
+/* sidebar code for responsive mobile starts */
+
+.sidebar-container {
+  background-color: #1a1919;
+}
+
+/* sidebar code for responsive mobile ends */
 
 /* main header code end's */
 
