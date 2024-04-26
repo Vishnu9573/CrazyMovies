@@ -521,6 +521,10 @@ footer {
     display: block;
   }
 
+  header nav ul {
+    display: none;
+  }
+
   /* .header-text .sub-header {
     font-size: 23px !important;
   } */
