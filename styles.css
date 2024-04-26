@@ -145,6 +145,7 @@ i {
   left: 10px;
   top: 8px;
   font-size: 25px;
+  display: none;
 }
 
 /* .nav-container.sticky-container {
@@ -407,6 +408,10 @@ footer {
     display: block;
   }
 
+  .sidebar-btn i {
+    display: block;
+  }
+
   #select #pop-up {
     position: fixed;
     top: 10px;
@@ -509,6 +514,10 @@ footer {
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
   .sidebar-container {
+    display: block;
+  }
+
+  .sidebar-btn i {
     display: block;
   }
 
