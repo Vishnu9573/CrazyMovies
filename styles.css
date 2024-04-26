@@ -166,7 +166,15 @@ i {
   display: none;
 }
 
-/* Navbar css code for mobile responsive ends */
+/* Navbar css code for responsive mobile ends */
+
+/* sidebar code for responsive mobile starts */
+
+.sidebar-container {
+  background-color: #1a1919;
+}
+
+/* sidebar code for responsive mobile ends */
 
 /* main header code end's */
 
