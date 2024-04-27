@@ -429,6 +429,13 @@ footer {
   .sidebar-btn {
     cursor: pointer;
   }
+
+  .sidebar-btn i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-size: 25px;
+  }
   
   .close-btn {
     font-size: 25px;
