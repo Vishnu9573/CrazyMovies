@@ -404,15 +404,15 @@ footer {
   /* sidebar code for responsive mobile starts */
   
   .sidebar-container {
-  background: #222121;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  transition: 2s;
-  opacity: 0;
-  z-index: 999;
+    background: #222121;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 2s;
+    opacity: 0;
+    z-index: 999;
   }
   
   .sidebar-container.show-sidebar {
