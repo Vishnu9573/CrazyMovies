@@ -131,14 +131,14 @@ i {
 
 /* Navbar css code for mobile responsive starts */
 
-.nav-container {
+/* .nav-container {
   background: #222121;
   width: 100%;
   min-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .sidebar-btn i {
   display: none;
