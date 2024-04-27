@@ -538,6 +538,15 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
+  .nav-container {
+    background: #222121;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .sidebar-container {
     display: block;
   }
