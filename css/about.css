@@ -83,7 +83,18 @@ i {
 
 /* header code end's */
 
-/* main header code start's */
+.sidebar-btn i {
+  display: none;
+}
+
+.nav-links-main {
+  display: none;
+}
+
+.sidebar-container {
+  background-color: #1a1919;
+  display: none;
+}
 
 /* this if just for about option code */
 
