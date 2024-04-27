@@ -17,31 +17,45 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <!-- ? header code starts -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="sidebar-btn">
+                <i class="fa-regular fa-bars"></i>
+            </div>
             <ul>
-                <li><a target="_parent" href="../index.html"><i class="fa-regular fa-house icon1"></i>home</a></li>
-                <li><a target="_parent" href="./about.html"><i class="fa-regular fa-circle-exclamation icon2"></i>about</a></li>
-                <li><a target="_parent" href="./updates.html"><i class="fa-regular fa-bullhorn"></i>updates</a></li>
+                <li><a target="_parent" href="./index.html"><i class="fa-regular fa-house icon1"></i>home</a></li>
+                <li><a target="_parent" href="./html/about.html"><i class="fa-regular fa-circle-exclamation icon2"></i>about</a></li>
+                <li><a target="_parent" href="./html/updates.html"><i class="fa-regular fa-bullhorn"></i>updates</a></li>
                 <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Your%20insightful%20suggestions%20are%20greatly%20appreciated.%20(remove%20this%20text%20before%20sending%20your%20suggestion.)"><i class="fa-regular fa-lightbulb"></i>suggestion</a></li>
-                <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Please%20define%20which%20movie%20link%20is%20broken.%20(remove%20this%20text%20before%20sending%20email.)"><i class="fa-regular fa-link-slash"></i>broken-link</a></li>
-                <!-- <li><a target="_parent" href="./contact.html"><i class="fa-regular fa-envelope icon3"></i>contact</a></li> -->
+                <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Please%20define%20which%20movie%20link%20is%20broken.%20(remove%20this%20text%20before%20sending%20email)"><i class="fa-regular fa-link-slash"></i>broken link</a></li>
                 <!-- <li><a target="_blank" href="html/testing.html">testing</a></li> -->
             </ul>
         </nav>
-        <input type="search" id="searchInput" placeholder="Search...">
+        <!-- aside code start's -->
+        <aside class="sidebar-container">
+            <div class="sidebar-center">
+                <div class="side-header">
+                    <div class="close-btn">
+                        <i class="fa-regular fa-xmark-large font-icon"></i>
+                    </div>
+                    <div class="sidebar-content">
+                        <div class="sidebar-main-content">
+                            <ul class="sidebar-links">
+                                <li><a href="./" class="aside-nav-link">Home</a></li>
+                                <li><a href="./html/about.html" class="aside-nav-link">About</a></li>
+                                <li><a href="./html/updates.html" class="aside-nav-link">Updates</a></li>
+                                <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Your%20insightful%20suggestions%20are%20greatly%20appreciated.%20(remove%20this%20text%20before%20sending%20your%20suggestion.)" class="aside-nav-link">Suggestions</a></li>
+                                <li><a href="mailto:moviesclubsuggestion@gmail.com?subject=Please%20define%20which%20movie%20link%20is%20broken.%20(remove%20this%20text%20before%20sending%20email)" class="aside-nav-link">Broken Links</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- aside code end's -->
     </header>
-    <div id="select">
-        <select name="pop-up" id="pop-up" onchange="redirectToLink()">
-            <option value="selected" selected></option>
-            <option value="../index.html"><a href="../index.html">home</a></option>
-            <option value="./about.html"><a href="./about.html">about</a></option>
-            <option value="./updated.html"><a href="./updates.html">updates</a></option>
-            <option value="mailto:moviesclubsuggestion@gmail.com"><a target="_top" href="mailto:moviesclubsuggestion@gmail.com?subject=Your%20insightful%20suggestions%20are%20greatly%20appreciated.%20(remove%20this%20text%20before%20sending%20your%20suggestion.)">suggestion</a></option>
-            <option value="mailto:moviesclubsuggestion@gmail.com"><a href="mailto:moviesclubsuggestion@gmail.com?subject=Please%20define%20which%20movie%20link%20is%20broken.%20(remove%20this%20text%20before%20sending%20email.)">broken link</a></option>
-        </select>
-        <div class="icon-container"><i class="fa-regular fa-bars"></i></div>
-    </div>
+    <!-- ? header code ends -->
     <section class="updates-list">
         <p>version 0.5: </p><br>
         <br>
