@@ -384,10 +384,6 @@ footer {
     display: none;
   }
 
-  .sidebar-btn i {
-    display: block;
-  }
-
   /* Navbar css code for mobile responsive starts */
 
   .nav-container {
@@ -435,6 +431,7 @@ footer {
     left: 10px;
     top: 8px;
     font-size: 25px;
+    display: block;
   }
   
   .close-btn {
@@ -546,7 +543,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  
+
   .sidebar-container {
     display: block;
   }
