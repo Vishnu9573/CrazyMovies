@@ -484,6 +484,10 @@ footer {
   }
 
   .sidebar-btn i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-size: 25px;
     display: block;
   }
 
