@@ -376,9 +376,9 @@ footer {
 /* responsive css code start's */
 
 @media only screen and (max-width: 600px) {
-  header {
+  /* header {
     z-index: 2;
-  }
+  } */
 
   header nav ul {
     display: none;
