@@ -141,28 +141,8 @@ i {
 }
 
 .sidebar-btn i {
-  position: absolute;
-  left: 10px;
-  top: 8px;
-  font-size: 25px;
   display: none;
 }
-
-/* .nav-container.sticky-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 5;
-  transition: 2s;
-} */
-
-/* .nav-center {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-} */
 
 .nav-links-main {
   display: none;
@@ -428,9 +408,8 @@ footer {
     left: 10px;
     top: 8px;
     font-size: 25px;
-    display: none;
   }
-  
+
   .sidebar-container {
     background-color: #1a1919;
   }
