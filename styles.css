@@ -404,51 +404,38 @@ footer {
     display: none;
   }
 
-  .sidebar-container {
-    display: block;
-  }
-
   .sidebar-btn i {
     display: block;
   }
 
-  #select #pop-up {
-    position: fixed;
-    top: 10px;
-    left: 5px;
-    width: 25px;
-    outline: none;
-    border: 2px solid yellow;
-    background: lime;
-    appearance: none;
-    border-radius: 5px;
-    left: 8px;
-    z-index: 3;
-  }
+  /* Navbar css code for mobile responsive starts */
 
-  #select #pop-up option {
-    color: white;
-    /* display: none; */
-  }
-
-  #select .icon-container {
-    display: block;
-    position: fixed;
+  .nav-container {
+    background: #222121;
+    width: 100%;
+    min-height: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    left: 4px;
-    z-index: 3;
+    align-items: center;
   }
-
-  #select .icon-container i {
-    color: white;
-    position: relative;
-    top: 13.5px;
-    left: 10.3px;
-    font-size: 13px;
-    z-index: 3;
+  
+  /* Navbar css code for responsive mobile ends */
+  
+  /* sidebar code for responsive mobile starts */
+  
+  .sidebar-btn i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-size: 25px;
+    display: none;
   }
+  
+  .sidebar-container {
+    background-color: #1a1919;
+  }
+  
+  /* sidebar code for responsive mobile ends */
 
   #movie-years nav ul li a {
     font-size: 12px;
