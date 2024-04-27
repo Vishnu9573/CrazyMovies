@@ -205,11 +205,7 @@ i {
         letter-spacing: 1px;
     }
   
-  /* sidebar code for responsive mobile ends */
-
-    #menu-button {
-        display: block;
-    }
+    /* sidebar code for responsive mobile ends */
 
     #paragraph {
         max-width: 100%;
