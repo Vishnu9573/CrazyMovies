@@ -260,9 +260,9 @@ const footer = document.querySelector(".footer");
 window.addEventListener("scroll", function () {
     let scrollBottom = window.scrollY || document.documentElement.scrollBottom;
     if (scrollBottom > lastScrollBottom) {
-      footer.style.top = "-30px";
+      footer.style.bottom = "-30px";
     } else {
-      footer.style.top = "0";
+      footer.style.bottom = "0";
     }
     lastScrollBottom = scrollBottom;
 });
