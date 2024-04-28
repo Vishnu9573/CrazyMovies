@@ -108,6 +108,19 @@ i {
   padding: 0 5px;
 }
 
+.header.header-clr-blk {
+  background: rgb(148, 148, 148);
+}
+
+.search-input.search-clr-blk {
+  background: rgb(51, 51, 51);
+  color: white;
+}
+
+.sidebar-links.sidebar-clr-blk li {
+  color: black;
+}
+
 /* header code end's */
 
 /* main header code start's */

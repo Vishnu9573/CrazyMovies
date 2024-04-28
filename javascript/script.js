@@ -273,8 +273,13 @@ window.addEventListener("scroll", function () {
 
 
 const body = document.querySelector('.body');
-const clrBtn = document.querySelector('.clr-btn')
+const clrBtn = document.querySelector('.clr-btn');
+const search = document.querySelector('.search-input');
+const sidebarLinks = document.querySelector('.sidebar-links');
 function colorChange() {
     body.classList.add('body-clr-blk');
+    header.classList.add('header-clr-blk');
+    search.classList.add('search-clr-btn');
+    sidebarLinks.classList.add('sidebar-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
