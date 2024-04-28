@@ -262,7 +262,7 @@ window.addEventListener("scroll", function () {
     let scrollBottom = window.scrollY || document.documentElement.scrollBottom;
     if (scrollBottom > lastScrollBottom) {
       footer.style.bottom = "-30px";
-      footerText.style.bottom = "-6px";
+      footerText.style.bottom = "-10px";
     } else {
       footer.style.bottom = "0";
       footerText.style.bottom = "6px";
