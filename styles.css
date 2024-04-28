@@ -33,6 +33,11 @@ body {
   /* scroll-behavior: none; */
 }
 
+.clr-btn.body-clr-blk {
+  color: rgb(31, 31, 31);
+  background: ghostwhite;
+}
+
 /* header code start's */
 
 header {

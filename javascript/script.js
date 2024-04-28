@@ -252,3 +252,12 @@ window.addEventListener('scroll', function() {
     }
     lastScrollTop = scrollTop;
 });
+
+
+
+
+const body = document.querySelector('.body');
+function colorChange() {
+    body.classList.add('body-clr-blk');
+}
+body.addEventListener('click', colorChange)
