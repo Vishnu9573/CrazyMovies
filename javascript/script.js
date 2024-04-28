@@ -265,7 +265,7 @@ window.addEventListener("scroll", function () {
       footer.style.bottom = "-6px";
     } else {
       footer.style.bottom = "0";
-      footer.style.bottom = "0";
+      footer.style.bottom = "6px";
     }
     lastScrollBottom = scrollBottom;
 });
