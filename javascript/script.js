@@ -257,11 +257,14 @@ window.addEventListener('scroll', function() {
 
 let lastScrollBottom = 0;
 const footer = document.querySelector(".footer");
+const footerText = document.getElementById('footer')
 window.addEventListener("scroll", function () {
     let scrollBottom = window.scrollY || document.documentElement.scrollBottom;
     if (scrollBottom > lastScrollBottom) {
       footer.style.bottom = "-30px";
+      footer.style.bottom = "-6px";
     } else {
+      footer.style.bottom = "0";
       footer.style.bottom = "0";
     }
     lastScrollBottom = scrollBottom;
