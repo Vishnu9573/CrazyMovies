@@ -273,4 +273,4 @@ const body = document.querySelector('.clr-btn');
 function colorChange() {
     body.classList.add('body-clr-blk');
 }
-body.addEventListener('click', colorChange)
+body.addEventListener('click', colorChange);
