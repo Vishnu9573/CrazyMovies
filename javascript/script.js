@@ -269,8 +269,9 @@ window.addEventListener("scroll", function () {
 
 
 
-const body = document.querySelector('.clr-btn');
+const body = document.querySelector('.body');
+const clrBtn = document.querySelector('.clr-btn')
 function colorChange() {
     body.classList.add('body-clr-blk');
 }
-body.addEventListener('click', colorChange);
+clrBtn.addEventListener('click', colorChange);
