@@ -33,7 +33,7 @@ body {
   /* scroll-behavior: none; */
 }
 
-body.body-clr-blk {
+.body.body-clr-blk {
   color: rgb(31, 31, 31);
   background: ghostwhite;
 }
