@@ -255,6 +255,19 @@ window.addEventListener('scroll', function() {
 
 
 
+let lastScrollBottom = 0;
+const footer = document.querySelector(".footer");
+window.addEventListener("scroll", function () {
+    let scrollBottom = window.scrollY || document.documentElement.scrollBottom;
+    if (scrollBottom > lastScrollBottom) {
+      footer.style.top = "-30px";
+    } else {
+      footer.style.top = "0";
+    }
+    lastScrollBottom = scrollBottom;
+});
+
+
 
 const body = document.querySelector('.clr-btn');
 function colorChange() {
