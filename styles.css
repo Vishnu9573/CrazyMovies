@@ -8,6 +8,19 @@
   padding: 0;
 }
 
+:root {
+  --clr-black: black;
+  --clr-greyish: rgb(31, 31, 31);
+  --clr-greyish1: rgb(39, 39, 39);
+  --clr-header: rgb(34, 33, 33)
+  --clr-grey: grey;
+  --clr-white: white;
+  --clr-ghostwhite: ghostwhite;
+  --clr-limergb: rgb(106, 255, 0);
+  --clr-lime: lime;
+  --clr-darkthemeheader: rgb(148, 148, 148);
+}
+
 /* ::-webkit-scrollbar {
     appearance: none;
 } */
@@ -35,7 +48,7 @@ body {
 
 .body.body-clr-blk {
   color: rgb(31, 31, 31);
-  background: ghostwhite;
+  background: var(--clr-ghostwhite);
 }
 
 /* header code start's */
@@ -46,7 +59,7 @@ header {
   background-color: rgb(34, 33, 33);
   position: fixed;
   z-index: 3;
-  border-bottom: 3px solid linear-gradient(grey, white);
+  border-bottom: 3px solid linear-gradient(var(--clr-grey), var(--clr-white));
   transition: 0.6s;
 }
 
@@ -61,7 +74,7 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
-  color: white;
+  color: var(--clr-white);
   margin-top: 6px;
   font-family: laila, sans-serif;
 }
@@ -79,7 +92,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   /* color: black; */
-  border-color: rgb(106, 255, 0);
+  border-color: var(--clr-limergb);
   background-color: rgba(0, 255, 0, 0.2);
 }
 
@@ -89,8 +102,8 @@ header nav ul li a:hover {
 }
 
 i {
-  text-shadow: 0.1px 0.1px 5px lime;
-  color: lime;
+  text-shadow: 0.1px 0.1px 5px var(--clr-lime);
+  color: var(--clr-lime);
   margin-right: 5px;
 }
 
@@ -101,8 +114,8 @@ i {
   width: 200px;
   height: 25px;
   outline: none;
-  background: white;
-  color: black;
+  background: var(--clr-white);
+  color: var(--clr-black);
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   padding: 0 5px;
@@ -114,11 +127,11 @@ i {
 
 .search-input.search-clr-blk {
   background: rgb(51, 51, 51);
-  color: white;
+  color: var(--clr-white);
 }
 
 .sidebar-links.sidebar-clr-blk li {
-  color: black;
+  color: var(--clr-black);
 }
 
 /* header code end's */
@@ -128,7 +141,7 @@ i {
 .header-text {
   padding-top: 60px;
   text-align: center;
-  color: white;
+  color: var(--clr-white);
 }
 
 .header-text > .main-header {
@@ -192,7 +205,7 @@ i {
 }
 
 #movie-languages nav ul li {
-  color: white;
+  color: var(--clr-white);
   list-style: none;
 }
 
@@ -208,7 +221,7 @@ i {
 }
 
 #movie-languages nav ul li a:hover {
-  color: black;
+  color: var(--clr-black);
   background-color: rgb(225, 255, 0);
 }
 
@@ -230,7 +243,7 @@ i {
 
 #movie-years nav ul li {
   list-style: none;
-  color: white;
+  color: var(--clr-white);
 }
 
 #movie-years nav ul li a {
@@ -291,8 +304,8 @@ i {
 }
 
 #gallery .image a img:hover {
-  box-shadow: 1px 1px 10px lime,
-              -1px -1px 10px lime;
+  box-shadow: 1px 1px 10px var(--clr-lime),
+              -1px -1px 10px var(--clr-lime);
 }
 
 .image a .content {
@@ -307,7 +320,7 @@ i {
 }
 
 #gallery .year .release-year {
-  color: lime;
+  color: var(--clr-lime);
   font-family: coda;
   background: rgb(61, 61, 61);
   width: -moz-fit-content;
@@ -321,7 +334,7 @@ i {
 }
 
 #gallery .year-header {
-  color: white;
+  color: var(--clr-white);
   font-family: coda;
   font-size: 30px;
   text-decoration: underline;
@@ -337,7 +350,7 @@ h2 {
   font-size: 50px;
   font-family: "exo 2";
   padding-top: 125px;
-  color: white;
+  color: var(--clr-white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,7 +371,7 @@ h2 {
 }
 
 #menu-button i {
-  background: lime;
+  background: var(--clr-lime);
   border: 2px solid yellow;
   padding: 5px;
   border-radius: 4px;
@@ -378,12 +391,12 @@ footer {
   background-color: rgb(34, 33, 33);
   position: fixed;
   bottom: 0;
-  border-top: 1px solid lime;
+  border-top: 1px solid var(--clr-lime);
   transition: 0.6s;
 }
 
 #footer {
-  color: white;
+  color: var(--clr-white);
   position: fixed;
   right: 10px;
   bottom: 6px;
@@ -476,7 +489,7 @@ footer {
   }
   
   .sidebar-links li {
-    color: white;
+    color: var(--clr-white);
     list-style: none;
   }
   
@@ -625,7 +638,7 @@ footer {
   }
   
   .sidebar-links li {
-    color: white;
+    color: var(--clr-white);
     list-style: none;
   }
   
