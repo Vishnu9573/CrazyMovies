@@ -6,7 +6,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: 0.6s;
 }
 
 :root {
@@ -41,6 +40,10 @@ img, .release-year, #movie-languages nav ul li a {
 ::selection {
   background-color: rgba(0, 255, 0, 0.9);
   color: white;
+}
+
+html {
+  transition: 0.6s;
 }
 
 body {

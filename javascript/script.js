@@ -276,6 +276,7 @@ const body = document.querySelector('.body');
 const clrBtn = document.querySelector('.clr-btn');
 const search = document.querySelector('.search-input');
 const sidebarLinks = document.querySelector('.sidebar-links');
+const navContainer = document.querySelector('.sidebar-container')
 function colorChange() {
     body.classList.add('body-clr-blk');
     header.classList.add('header-clr-blk');
