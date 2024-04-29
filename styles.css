@@ -550,6 +550,10 @@ footer {
     font-size: 20px;
   }
 
+  .image img:active, .image img:hover {
+    transform: scale(1);
+  }
+
   #gallery .year .image .content {
     font-size: 15px;
   }
