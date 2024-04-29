@@ -501,7 +501,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     column-gap: 10px;
     row-gap: 5px;
-    margin-bottom: 77px !important;
+    /* margin-bottom: 77px !important; */
   }
 
   .content, .release-year {
