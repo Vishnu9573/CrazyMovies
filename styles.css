@@ -314,12 +314,13 @@ i {
   border-radius: 7px;
   /* border: 0.0000000001px dotted rgba(100, 255, 100, 0.2); */
   object-fit: fill;
+  transition: 0.3s;
 }
 
 #gallery .image a img:hover {
   box-shadow: 1px 1px 10px var(--clr-lime),
               -1px -1px 10px var(--clr-lime);
-  transform: scale(2);
+  transform: scale(0.5);
 }
 
 .image a .content {
