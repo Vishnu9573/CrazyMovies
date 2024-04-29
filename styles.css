@@ -307,6 +307,10 @@ i {
   text-decoration: none;
 }
 
+.image {
+  overflow: hidden;
+}
+
 #gallery .image a img {
   max-width: 100%;
   height: auto;
