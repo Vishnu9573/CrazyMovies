@@ -314,6 +314,7 @@ i {
   border-radius: 7px;
   /* border: 0.0000000001px dotted rgba(100, 255, 100, 0.2); */
   object-fit: fill;
+  overflow: hidden;
   transition: 0.3s;
 }
 
