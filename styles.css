@@ -18,7 +18,7 @@
   --clr-ghostwhite: ghostwhite;
   --clr-limergb: rgb(106, 255, 0);
   --clr-lime: lime;
-  --clr-darkthemeheader: rgb(148, 148, 148);
+  --clr-darktheme: rgb(148, 148, 148);
   --clr-yellow: yellow;
 }
 
@@ -123,7 +123,7 @@ i {
 }
 
 .header.header-clr-blk {
-  background: rgb(148, 148, 148);
+  background: var(--clr-darktheme);
 }
 
 .search-input.search-clr-blk {
@@ -133,6 +133,14 @@ i {
 
 .sidebar-links.sidebar-clr-blk li {
   color: var(--clr-black);
+}
+
+.sidebar-container.sidebar-container-clr-blk {
+  background: var(--clr-darktheme);
+}
+
+.nav-container.nav-container-clr-blk {
+  background: var(--clr-darktheme);
 }
 
 /* header code end's */
