@@ -19,6 +19,7 @@
   --clr-limergb: rgb(106, 255, 0);
   --clr-lime: lime;
   --clr-darkthemeheader: rgb(148, 148, 148);
+  --clr-yellow: yellow;
 }
 
 /* ::-webkit-scrollbar {
@@ -262,7 +263,7 @@ i {
 #movie-years nav ul li a:hover {
   background: rgb(106, 255, 0);
   color: rgb(55, 54, 54);
-  border-color: yellow;
+  border-color: var(--clr-yellow);
 }
 
 /* navigation for years code end's */
@@ -372,7 +373,7 @@ h2 {
 
 #menu-button i {
   background: var(--clr-lime);
-  border: 2px solid yellow;
+  border: 2px solid var(--clr-yellow);
   padding: 5px;
   border-radius: 4px;
 }
