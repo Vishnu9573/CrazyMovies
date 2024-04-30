@@ -288,9 +288,9 @@ function colorChange() {
     sidebarContainer.classList.add('sidebar-container-clr-blk');
     navContainer.classList.add('nav-container-clr-blk');
     moviesLang.classList.add('movies-lang-clr-blk');
-    movieName.classList.add('movie-name-clr-blk');
     footer.classList.add('footer-background-clr-blk');
     footerTextColor.classList.add('footer-text-clr-blk');
     subHeader.classList.add('sub-header-clr-blk');
+    movieName.classList.add('movie-name-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
