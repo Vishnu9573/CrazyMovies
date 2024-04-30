@@ -126,6 +126,8 @@ i {
   padding: 0 5px;
 }
 
+/* dark theme css code starts */
+
 .header.header-clr-blk {
   background: var(--clr-darktheme);
 }
@@ -146,6 +148,28 @@ i {
 .nav-container.nav-container-clr-blk {
   background: var(--clr-darktheme);
 }
+
+.movies-lang.movies-lang-clr-blk li {
+  color: var(--clr-black);
+}
+
+.movies-lang.movies-lang-clr-blk li a:hover {
+  color: var(--clr-white);
+}
+
+.image.movie-poster-clr-blk .content {
+  color: var(--clr-black);
+}
+
+.footer.footer-background-clr-blk {
+  background: var(--clr-darktheme);
+}
+
+.footer-text.footer-text-clr-blk {
+  color: var(--clr-black);
+}
+
+/* dark theme css code ends */
 
 /* header code end's */
 

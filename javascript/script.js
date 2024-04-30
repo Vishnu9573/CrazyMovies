@@ -278,6 +278,9 @@ const search = document.querySelector('.search-input');
 const sidebarLinks = document.querySelector('.sidebar-links');
 const sidebarContainer = document.querySelector('.sidebar-container')
 const navContainer = document.querySelector('.nav-contaienr');
+const moviesLang = document.querySelector('.movies-lang');
+const poster = document.querySelector('.image');
+const footerTextColor = document.querySelector('.footer-text')
 function colorChange() {
     body.classList.add('body-clr-blk');
     header.classList.add('header-clr-blk');
@@ -285,5 +288,9 @@ function colorChange() {
     sidebarLinks.classList.add('sidebar-clr-blk');
     sidebarContainer.classList.add('sidebar-container-clr-blk');
     navContainer.classList.add('nav-container-clr-blk');
+    moviesLang.classList.add('movies-lang-clr-blk');
+    poster.classList.add('movie-poster-clr-blk');
+    footer.classList.add('footer-background-clr-blk');
+    footerText.classList.add('footer-text-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
