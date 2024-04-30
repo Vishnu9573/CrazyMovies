@@ -276,7 +276,6 @@ const body = document.querySelector('.body');
 const clrBtn = document.querySelector('.clr-btn');
 const search = document.querySelector('.search-input');
 const sidebarLinks = document.querySelector('.sidebar-links');
-const sidebarContainer = document.querySelector('.sidebar-container')
 const navContainer = document.querySelector('.nav-contaienr');
 const moviesLang = document.querySelector('.movies-lang');
 const poster = document.querySelector('.image');
