@@ -158,7 +158,7 @@ i {
 }
 
 .content.movie-name-clr-blk {
-  color: var(--clr-black);
+  color: var(--clr-black) !important;
 }
 
 .footer.footer-background-clr-blk {
