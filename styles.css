@@ -149,7 +149,7 @@ i {
   background: var(--clr-darktheme);
 }
 
-.movies-lang.movies-lang-clr-blk nav ul li {
+.movies-lang.movies-lang-clr-blk nav ul li a {
   color: var(--clr-black);
 }
 
