@@ -293,3 +293,5 @@ function colorChange() {
     footerTextColor.classList.add('footer-text-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
+
+console.log(movieName.classList);
