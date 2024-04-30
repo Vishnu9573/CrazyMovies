@@ -290,6 +290,6 @@ function colorChange() {
     moviesLang.classList.add('movies-lang-clr-blk');
     poster.classList.add('movie-poster-clr-blk');
     footer.classList.add('footer-background-clr-blk');
-    footerText.classList.add('footer-text-clr-blk');
+    footerTextColor.classList.add('footer-text-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
