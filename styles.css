@@ -157,7 +157,7 @@ i {
   color: var(--clr-white);
 }
 
-.image.movie-poster-clr-blk .content {
+.content.movie-name-clr-blk {
   color: var(--clr-black);
 }
 

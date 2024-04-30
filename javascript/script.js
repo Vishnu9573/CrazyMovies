@@ -288,7 +288,7 @@ function colorChange() {
     sidebarContainer.classList.add('sidebar-container-clr-blk');
     navContainer.classList.add('nav-container-clr-blk');
     moviesLang.classList.add('movies-lang-clr-blk');
-    poster.classList.add('movie-poster-clr-blk');
+    poster.classList.add('movie-name-clr-blk');
     footer.classList.add('footer-background-clr-blk');
     footerTextColor.classList.add('footer-text-clr-blk');
 }
