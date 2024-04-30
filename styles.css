@@ -149,6 +149,10 @@ i {
   background: var(--clr-darktheme);
 }
 
+.sub-header.sub-header-clr-blk {
+  color: var(--clr-black);
+}
+
 .movies-lang.movies-lang-clr-blk nav ul li a {
   color: var(--clr-black);
 }

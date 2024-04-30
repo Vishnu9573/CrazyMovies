@@ -291,6 +291,7 @@ function colorChange() {
     movieName.classList.add('movie-name-clr-blk');
     footer.classList.add('footer-background-clr-blk');
     footerTextColor.classList.add('footer-text-clr-blk');
+    subHeader.classList.add('sub-header-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
 
