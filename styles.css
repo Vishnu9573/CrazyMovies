@@ -719,6 +719,10 @@ footer {
     display: none;
   }
 
+  #gallery .image a img:hover  {
+    transform: scale(1);
+  }
+
   /* .header-text .sub-header {
     font-size: 23px !important;
   } */
