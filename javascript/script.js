@@ -294,5 +294,3 @@ function colorChange() {
     subHeader.classList.add('sub-header-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
-
-console.log(movieName.classList);
