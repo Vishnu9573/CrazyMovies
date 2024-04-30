@@ -333,6 +333,7 @@ i {
 
 .image a {
   text-decoration: none;
+  border-radius: 7px;
 }
 
 .image {
