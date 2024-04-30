@@ -278,7 +278,7 @@ const search = document.querySelector('.search-input');
 const sidebarLinks = document.querySelector('.sidebar-links');
 const navContainer = document.querySelector('.nav-container');
 const moviesLang = document.querySelector('.movies-lang');
-const poster = document.querySelector('.image');
+const movieName = document.querySelector('.content');
 const footerTextColor = document.querySelector('.footer-text')
 function colorChange() {
     body.classList.add('body-clr-blk');
@@ -288,7 +288,7 @@ function colorChange() {
     sidebarContainer.classList.add('sidebar-container-clr-blk');
     navContainer.classList.add('nav-container-clr-blk');
     moviesLang.classList.add('movies-lang-clr-blk');
-    poster.classList.add('movie-name-clr-blk');
+    movieName.classList.add('movie-name-clr-blk');
     footer.classList.add('footer-background-clr-blk');
     footerTextColor.classList.add('footer-text-clr-blk');
 }
