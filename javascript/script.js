@@ -275,7 +275,7 @@ window.addEventListener("scroll", function () {
 const lightTheme = document.querySelector(".light");
 const darkTheme = document.querySelector(".dark");
 const body = document.querySelector(".body");
-const clrBtn = document.querySelector(".clr-btn");
+// const clrBtn = document.querySelector(".clr-btn");
 const search = document.querySelector(".search-input");
 const sidebarLinks = document.querySelector(".sidebar-links");
 const navContainer = document.querySelector(".nav-container");
