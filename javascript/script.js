@@ -278,8 +278,8 @@ const search = document.querySelector('.search-input');
 const sidebarLinks = document.querySelector('.sidebar-links');
 const navContainer = document.querySelector('.nav-container');
 const moviesLang = document.querySelector('.movies-lang');
-const movieName = document.querySelectorAll('.content');
 const footerTextColor = document.querySelector('.footer-text')
+const movieName = document.querySelectorAll('.content');
 function colorChange() {
     body.classList.add('body-clr-blk');
     header.classList.add('header-clr-blk');
