@@ -167,7 +167,7 @@ i {
 
 .footer.footer-background-clr-blk {
   background: var(--clr-darktheme);
-  border-top: none !important;
+  border-top: 1px solid rgb(65, 65, 65);
 }
 
 .footer-text.footer-text-clr-blk {
