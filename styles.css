@@ -737,6 +737,12 @@ footer {
     display: none;
   }
 
+  i {
+    text-shadow: 0.1px 0.1px 5px var(--clr-white);
+    color: var(--clr-white);
+    margin-right: 5px;
+  }
+
   /* .header-text .sub-header {
     font-size: 23px !important;
   } */
