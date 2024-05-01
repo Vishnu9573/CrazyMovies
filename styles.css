@@ -170,7 +170,7 @@ i {
 }
 
 .footer-text.footer-text-clr-blk {
-  color: var(--clr-black);
+  color: var(--clr-black) !important;
 }
 
 /* dark theme css code ends */
