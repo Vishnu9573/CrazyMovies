@@ -167,6 +167,7 @@ i {
 
 .footer.footer-background-clr-blk {
   background: var(--clr-darktheme);
+  border-top: none !important;
 }
 
 .footer-text.footer-text-clr-blk {
