@@ -107,16 +107,32 @@ i {
   margin-right: 5px;
 }
 
-.clr-btn {
+.light {
   cursor: pointer;
   position: absolute;
-  right: 18pc;
+  right: 19pc;
   top: 6px;
   padding: 5px;
   background: none;
-  border: none;
+  border: 1px solid transparent;
   outline: none;
   color: white;
+}
+
+.dark {
+  cursor: pointer;
+  position: absolute;
+  right: 16pc;
+  top: 6px;
+  padding: 5px;
+  background: none;
+  border: 1px solid transparent;
+  outline: none;
+  color: white;
+}
+
+.mobile {
+  display: none;
 }
 
 #searchInput {
@@ -641,6 +657,10 @@ footer {
   .clr-btn {
     display: none;
   }
+
+  .mobile {
+    display: block;
+  }
   
 }
 
@@ -748,6 +768,10 @@ footer {
 
   .clr-btn {
     display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 
   i {
