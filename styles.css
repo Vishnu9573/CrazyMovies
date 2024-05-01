@@ -51,11 +51,6 @@ body {
   /* scroll-behavior: none; */
 }
 
-.body.body-clr-blk {
-  color: rgb(31, 31, 31);
-  background: var(--clr-ghostwhite);
-}
-
 /* header code start's */
 
 header {
@@ -127,6 +122,11 @@ i {
 }
 
 /* dark theme css code starts */
+
+.body.body-clr-blk {
+  color: rgb(31, 31, 31);
+  background: var(--clr-ghostwhite);
+}
 
 .header.header-clr-blk {
   background: var(--clr-darktheme);
