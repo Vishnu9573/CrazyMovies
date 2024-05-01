@@ -90,7 +90,7 @@ header nav ul li a {
   border: 1px solid transparent;
 }
 
-header nav ul li a:hover, .clr-btn:hover {
+header nav ul li a:hover, .clr-btn1:hover, .clr-btn2:hover {
   /* color: black; */
   border-color: var(--clr-limergb);
   background-color: rgba(0, 255, 0, 0.2);
@@ -107,7 +107,7 @@ i {
   margin-right: 5px;
 }
 
-.light {
+.clr-btn1 {
   cursor: pointer;
   position: absolute;
   right: 19pc;
@@ -119,7 +119,7 @@ i {
   color: white;
 }
 
-.dark {
+.clr-btn2 {
   cursor: pointer;
   position: absolute;
   right: 16pc;
@@ -650,12 +650,18 @@ footer {
     transform: scale(1);
   }
 
-  .clr-btn {
-    display: none;
+  button.mobile {
+    padding: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: laila, sans-serif;
+    color: white;
   }
 
-  .mobile {
-    display: block;
+  .clr-btn1, .clr-btn2 {
+    display: none;
   }
   
 }
@@ -762,12 +768,18 @@ footer {
     transform: scale(1);
   }
 
-  .clr-btn {
-    display: none;
+  button.mobile {
+    padding: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: laila, sans-serif;
+    color: white;
   }
 
-  .mobile {
-    display: block;
+  .clr-btn1, .clr-btn2 {
+    display: none;
   }
 
   i {
