@@ -158,11 +158,11 @@ i {
 }
 
 .movies-lang.movies-lang-clr-blk nav ul li {
-  color: var(--clr-black);
+  color: var(--clr-black) !important;
 }
 
 .movies-lang.movies-lang-clr-blk li a:hover {
-  color: var(--clr-white);
+  color: var(--clr-white) !important;
 }
 
 .image.movie-name-clr-blk a .content {
