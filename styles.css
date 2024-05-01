@@ -107,6 +107,10 @@ i {
   margin-right: 5px;
 }
 
+.clr-btn {
+  cursor: pointer;
+}
+
 #searchInput {
   position: absolute;
   right: 30px;
