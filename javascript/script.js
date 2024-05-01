@@ -272,25 +272,48 @@ window.addEventListener("scroll", function () {
 
 
 
-const body = document.querySelector('.body');
-const clrBtn = document.querySelector('.clr-btn');
-const search = document.querySelector('.search-input');
-const sidebarLinks = document.querySelector('.sidebar-links');
-const navContainer = document.querySelector('.nav-container');
-const moviesLang = document.querySelector('.movies-lang');
-const footerTextColor = document.querySelector('.footer-text')
-const moviePoster = document.querySelectorAll('.content');
-function colorChange() {
-    body.classList.add('body-clr-blk');
-    header.classList.add('header-clr-blk');
-    search.classList.add('search-clr-btn');
-    sidebarLinks.classList.add('sidebar-clr-blk');
-    sidebarContainer.classList.add('sidebar-container-clr-blk');
-    navContainer.classList.add('nav-container-clr-blk');
-    moviesLang.classList.add('movies-lang-clr-blk');
-    footer.classList.add('footer-background-clr-blk');
-    footerTextColor.classList.add('footer-text-clr-blk');
-    subHeader.classList.add('sub-header-clr-blk');
-    moviePoster.classList.add('movie-name-clr-blk');
+const lightTheme = document.querySelector(".light");
+const darkTheme = document.querySelector(".dark");
+const body = document.querySelector(".body");
+const clrBtn = document.querySelector(".clr-btn");
+const search = document.querySelector(".search-input");
+const sidebarLinks = document.querySelector(".sidebar-links");
+const navContainer = document.querySelector(".nav-container");
+const moviesLang = document.querySelector(".movies-lang");
+const footerTextColor = document.querySelector(".footer-text");
+const moviePoster = document.querySelectorAll(".content");
+const navContainerLinks = document.querySelectorAll(".nav-container-links");
+
+
+function lightThemeColor() {
+  body.classList.add("body-clr-blk");
+  header.classList.add("header-clr-blk");
+  search.classList.add("search-clr-btn");
+  sidebarLinks.classList.add("sidebar-clr-blk");
+  sidebarContainer.classList.add("sidebar-container-clr-blk");
+  navContainer.classList.add("nav-container-clr-blk");
+  moviesLang.classList.add("movies-lang-clr-blk");
+  footer.classList.add("footer-background-clr-blk");
+  footerTextColor.classList.add("footer-text-clr-blk");
+  subHeader.classList.add("sub-header-clr-blk");
+  navContainerLinks.classList.add("nav-container-links-clr-blk");
+  moviePoster.classList.add("movie-name-clr-blk");
 }
-clrBtn.addEventListener('click', colorChange);
+
+function darkThemeColor() {
+  body.classList.remove("body-clr-blk");
+  header.classList.remove("header-clr-blk");
+  search.classList.remove("search-clr-btn");
+  sidebarLinks.classList.remove("sidebar-clr-blk");
+  sidebarContainer.classList.remove("sidebar-container-clr-blk");
+  navContainer.classList.remove("nav-container-clr-blk");
+  moviesLang.classList.remove("movies-lang-clr-blk");
+  footer.classList.remove("footer-background-clr-blk");
+  footerTextColor.classList.remove("footer-text-clr-blk");
+  subHeader.classList.remove("sub-header-clr-blk");
+  navContainerLinks.classList.remove("nav-container-links-clr-blk");
+  moviePoster.classList.remove("movie-name-clr-blk");
+}
+
+lightTheme.addEventListener("click", lightThemeColor);
+darkTheme.addEventListener("click", darkThemeColor);
