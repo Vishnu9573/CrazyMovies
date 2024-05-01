@@ -109,6 +109,14 @@ i {
 
 .clr-btn {
   cursor: pointer;
+  position: absolute;
+  right: 18pc;
+  top: 6px;
+  padding: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
 }
 
 #searchInput {
