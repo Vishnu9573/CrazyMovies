@@ -165,7 +165,7 @@ i {
   color: var(--clr-white) !important;
 }
 
-.image.movie-name-clr-blk a .content {
+.content.movie-name-clr-blk {
   color: var(--clr-black) !important;
 }
 

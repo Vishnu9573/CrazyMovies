@@ -279,7 +279,7 @@ const sidebarLinks = document.querySelector('.sidebar-links');
 const navContainer = document.querySelector('.nav-container');
 const moviesLang = document.querySelector('.movies-lang');
 const footerTextColor = document.querySelector('.footer-text')
-const moviePoster = document.querySelectorAll('.image');
+const moviePoster = document.querySelectorAll('.content');
 function colorChange() {
     body.classList.add('body-clr-blk');
     header.classList.add('header-clr-blk');
