@@ -90,7 +90,7 @@ header nav ul li a {
   border: 1px solid transparent;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover, .clr-btn:hover {
   /* color: black; */
   border-color: var(--clr-limergb);
   background-color: rgba(0, 255, 0, 0.2);
@@ -129,10 +129,6 @@ i {
   border: 1px solid transparent;
   outline: none;
   color: white;
-}
-
-.mobile {
-  display: none;
 }
 
 #searchInput {
