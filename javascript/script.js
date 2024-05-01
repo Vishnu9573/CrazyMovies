@@ -279,7 +279,7 @@ const sidebarLinks = document.querySelector('.sidebar-links');
 const navContainer = document.querySelector('.nav-container');
 const moviesLang = document.querySelector('.movies-lang');
 const footerTextColor = document.querySelector('.footer-text')
-const movieName = document.querySelectorAll('.content');
+const moviePoster = document.querySelectorAll('.image');
 function colorChange() {
     body.classList.add('body-clr-blk');
     header.classList.add('header-clr-blk');
@@ -291,6 +291,6 @@ function colorChange() {
     footer.classList.add('footer-background-clr-blk');
     footerTextColor.classList.add('footer-text-clr-blk');
     subHeader.classList.add('sub-header-clr-blk');
-    movieName.classList.add('movie-name-clr-blk');
+    moviePoster.classList.add('movie-name-clr-blk');
 }
 clrBtn.addEventListener('click', colorChange);
