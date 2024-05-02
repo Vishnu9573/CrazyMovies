@@ -298,6 +298,7 @@ function lightThemeColor() {
   subHeader.classList.add("sub-header-clr-blk");
   navContainerLinks.classList.add("nav-container-links-clr-blk");
   moviePoster.classList.add("movie-name-clr-blk");
+  moviePoster.style.color = "black";
 }
 
 function darkThemeColor() {
@@ -313,6 +314,7 @@ function darkThemeColor() {
   subHeader.classList.remove("sub-header-clr-blk");
   navContainerLinks.classList.remove("nav-container-links-clr-blk");
   moviePoster.classList.remove("movie-name-clr-blk");
+  moviePoster.style.color = "white";
 }
 
 lightTheme.addEventListener("click", lightThemeColor);
