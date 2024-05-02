@@ -116,6 +116,7 @@ i {
   background: none;
   border: 1px solid transparent;
   color: white;
+  border-radius: 3px;
 }
 
 .clr-btn2 {
@@ -127,6 +128,7 @@ i {
   background: none;
   border: 1px solid transparent;
   color: white;
+  border-radius: 3px;
 }
 
 #searchInput {
