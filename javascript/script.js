@@ -283,6 +283,8 @@ const moviesLang = document.querySelector(".movies-lang");
 const footerTextColor = document.querySelector(".footer-text");
 const moviePoster = document.querySelectorAll(".content");
 const navContainerLinks = document.querySelectorAll(".nav-container-links");
+const light = document.querySelector(".light-theme");
+const dark = document.querySelector(".dark-theme");
 
 
 function lightThemeColor() {
@@ -319,3 +321,6 @@ function darkThemeColor() {
 
 lightTheme.addEventListener("click", lightThemeColor);
 darkTheme.addEventListener("click", darkThemeColor);
+
+light.addEventListener("click", lightThemeColor);
+dark.addEventListener("click", darkThemeColor);
