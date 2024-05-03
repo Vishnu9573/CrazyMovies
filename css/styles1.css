@@ -366,6 +366,11 @@ i {
   border-radius: 7px;
 }
 
+.poster {
+  overflow: hidden;
+  border-radius: 7px;
+}
+
 #gallery .image a img {
   max-width: 100%;
   height: auto;
