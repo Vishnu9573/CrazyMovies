@@ -324,7 +324,6 @@ function darkThemeColor() {
 }
 
 function changeClassColorWhite() {
-  console.log("Changing class color to white");
   let movieName = document.querySelectorAll(".content");
   movieName.forEach(function (name) {
     name.style.color = "black";
