@@ -590,6 +590,12 @@ footer {
     font-size: 12px;
   }
 
+  #gallery {
+    max-width: 95%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
   #gallery .year {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     column-gap: 10px;
