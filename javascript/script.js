@@ -275,17 +275,16 @@ window.addEventListener("scroll", function () {
 const lightTheme = document.querySelector(".light");
 const darkTheme = document.querySelector(".dark");
 const body = document.querySelector(".body");
-// const clrBtn = document.querySelector(".clr-btn");
+// const clrBtn = document.querySelector('.clr-btn');
 const search = document.querySelector(".search-input");
 const sidebarLinks = document.querySelector(".sidebar-links");
 const navContainer = document.querySelector(".nav-container");
 const moviesLang = document.querySelector(".movies-lang");
 const footerTextColor = document.querySelector(".footer-text");
-const moviePoster = document.querySelectorAll(".content");
+const moviePoster = document.getElementsByClassName("content");
 const navContainerLinks = document.querySelectorAll(".nav-container-links");
 const light = document.querySelector(".light-theme");
 const dark = document.querySelector(".dark-theme");
-
 
 function lightThemeColor() {
   body.classList.add("body-clr-blk");
@@ -298,9 +297,12 @@ function lightThemeColor() {
   footer.classList.add("footer-background-clr-blk");
   footerTextColor.classList.add("footer-text-clr-blk");
   subHeader.classList.add("sub-header-clr-blk");
-  navContainerLinks.classList.add("nav-container-links-clr-blk");
-  moviePoster.classList.add("movie-name-clr-blk");
-  moviePoster.style.color = "black";
+  // moviePoster.classList.add('movie-name-clr-blk');
+  // moviePoster.style.color = "black";
+  // lightTheme.style.color = "black";
+  // darkTheme.style.color = "black";
+  // navContainerLinks.classList.add('nav-container-links-clr-blk');
+  // console.log(body);
 }
 
 function darkThemeColor() {
@@ -314,13 +316,40 @@ function darkThemeColor() {
   footer.classList.remove("footer-background-clr-blk");
   footerTextColor.classList.remove("footer-text-clr-blk");
   subHeader.classList.remove("sub-header-clr-blk");
-  navContainerLinks.classList.remove("nav-container-links-clr-blk");
-  moviePoster.classList.remove("movie-name-clr-blk");
-  moviePoster.style.color = "white";
+  // moviePoster.classList.remove('movie-name-clr-blk');
+  // moviePoster.style.color = "white";
+  // lightTheme.style.color = "white";
+  // darkTheme.style.color = "white";
+  // navContainerLinks.classList.remove('nav-container-link-clr-blk');
 }
 
-lightTheme.addEventListener("click", lightThemeColor);
-darkTheme.addEventListener("click", darkThemeColor);
+function changeClassColorWhite() {
+  console.log("Changing class color to white");
+  let movieName = document.querySelectorAll(".content");
+  movieName.forEach(function (name) {
+    name.style.color = "black";
+  });
+}
 
-light.addEventListener("click", lightThemeColor);
-dark.addEventListener("click", darkThemeColor);
+function changeClassColorBlack() {
+  let movieName = document.querySelectorAll(".content");
+  movieName.forEach(function (name) {
+    name.style.color = "white";
+  });
+}
+
+function selectAllLightTheme() {
+  lightThemeColor();
+  changeClassColorWhite();
+}
+
+function selectAllDarkTheme() {
+  darkThemeColor();
+  changeClassColorBlack();
+}
+
+lightTheme.addEventListener("click", selectAllLightTheme);
+darkTheme.addEventListener("click", selectAllDarkTheme);
+
+light.addEventListener("click", selectAllLightTheme);
+dark.addEventListener("click", selectAllDarkTheme);
