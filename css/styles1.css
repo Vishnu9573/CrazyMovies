@@ -226,7 +226,7 @@ i {
   letter-spacing: 2px;
   -webkit-user-select: none;
   user-select: none;
-  color: lime;
+  /* color: lime; */
   /* text-shadow: 1px 1px 5px lime; */
 }
 
