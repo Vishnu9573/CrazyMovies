@@ -1,4 +1,4 @@
-// below code is for text glowing/animation
+/* // below code is for text glowing/animation
 function applyGlowingEffect() {
     const text = document.querySelector('.main-header');
     const letters = text.textContent.split('');
@@ -38,7 +38,7 @@ function applyGlowingEffect() {
       }, 200);
   }
   
-applyGlowingEffect();
+applyGlowingEffect(); */
 // ! text-shadow: 0 0 10px ${color};
 
 
