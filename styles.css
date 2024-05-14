@@ -66,6 +66,7 @@ header {
 
 header nav {
   max-width: 500px;
+  transition: 0.3s;
 }
 
 header nav ul {
@@ -264,7 +265,7 @@ i {
 #movie-languages nav {
   max-width: 300px;
   margin: auto;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #movie-languages nav ul {

@@ -61,11 +61,11 @@ header {
   position: fixed;
   z-index: 3;
   border-bottom: 3px solid linear-gradient(grey, white);
-  transition: 0.6s;
 }
 
 header nav {
   max-width: 500px;
+  transition: 0.3s;
 }
 
 header nav ul {
@@ -272,7 +272,7 @@ i {
 #movie-languages nav {
   max-width: 300px;
   margin: auto;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #movie-languages nav ul {
