@@ -213,14 +213,22 @@ i {
 }
 
 .header-text > .main-header {
+  font-size: 5vw;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  background-image: url(https://img1.picmix.com/output/stamp/thumb/5/2/9/1/1611925_f0c74.gif);
+  /* background-repeat: no-repeat; */
+  background-clip: text;
+  color: transparent;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
   font-family: zen tokyo zoo, sans-serif;
   letter-spacing: 2px;
-  margin-bottom: 5px;
-  font-size: 50px;
   -webkit-user-select: none;
   user-select: none;
-  font-size: 5vw;
-  text-transform: uppercase;
+  /* color: lime; */
+  /* text-shadow: 1px 1px 5px lime; */
 }
 
 .header-text > .sub-header {
