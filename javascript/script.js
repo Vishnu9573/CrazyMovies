@@ -107,50 +107,36 @@ function redirectToLink() {
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   let searchInput = document.getElementById("searchInput");
   let movies = document.querySelectorAll(".year .image");
 
-  searchInput.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-      let searchTerm = searchInput.value.trim().toLowerCase();
+  searchInput.addEventListener("input", function () {
+    let searchTerm = searchInput.value.trim().toLowerCase();
 
-      movies.forEach(function(movie) {
-        let title = movie
-          .querySelector(".content")
-          .textContent.trim()
-          .toLowerCase();
-        let isVisible = title.includes(searchTerm);
-        if (isVisible) {
-          movie.style.display = "block";
-        } else {
-          // Check if each letter in the search term appears anywhere in the title
-          let allLettersFound = true;
-          for (let letter of searchTerm) {
-            if (!title.includes(letter)) {
-              allLettersFound = false;
-              break;
-            }
-          }
-          if (allLettersFound) {
-            movie.style.display = "block";
-          } else {
-            movie.style.display = "none";
-          }
-        }
-      });
-
-      // Check if any movies are visible after filtering
-      let anyVisible = Array.from(movies).some(function(movie) {
-        return movie.style.display !== "none";
-      });
-
-      // If no movies are visible, show all movies
-      if (!anyVisible) {
-        movies.forEach(function(movie) {
-          movie.style.display = "block";
-        });
+    movies.forEach(function (movie) {
+      let title = movie
+        .querySelector(".content")
+        .textContent.trim()
+        .toLowerCase();
+      let isVisible = title.includes(searchTerm);
+      if (isVisible) {
+        movie.style.display = "block";
+      } else {
+        movie.style.display = "none";
       }
+    });
+
+    // Check if any movies are visible after filtering
+    let anyVisible = Array.from(movies).some(function (movie) {
+      return movie.style.display !== "none";
+    });
+
+    // If no movies are visible, show all movies
+    if (!anyVisible && searchTerm !== "") {
+      movies.forEach(function (movie) {
+        movie.style.display = "none";
+      });
     }
   });
 });
