@@ -272,6 +272,7 @@ i {
 #movie-languages nav {
   max-width: 300px;
   margin: auto;
+  transition: 0.5s;
 }
 
 #movie-languages nav ul {
