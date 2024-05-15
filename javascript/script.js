@@ -271,6 +271,7 @@ const moviePoster = document.getElementsByClassName("content");
 const navContainerLinks = document.querySelectorAll(".nav-container-links");
 const light = document.querySelector(".light-theme");
 const dark = document.querySelector(".dark-theme");
+const mainHeader = document.querySelector(".main-header");
 
 function lightThemeColor() {
   body.classList.add("body-clr-blk");
@@ -283,12 +284,7 @@ function lightThemeColor() {
   footer.classList.add("footer-background-clr-blk");
   footerTextColor.classList.add("footer-text-clr-blk");
   subHeader.classList.add("sub-header-clr-blk");
-  // moviePoster.classList.add('movie-name-clr-blk');
-  // moviePoster.style.color = "black";
-  // lightTheme.style.color = "black";
-  // darkTheme.style.color = "black";
-  // navContainerLinks.classList.add('nav-container-links-clr-blk');
-  // console.log(body);
+  mainHeader.classList.add("main-header-clr-blk");
 }
 
 function darkThemeColor() {
@@ -302,11 +298,8 @@ function darkThemeColor() {
   footer.classList.remove("footer-background-clr-blk");
   footerTextColor.classList.remove("footer-text-clr-blk");
   subHeader.classList.remove("sub-header-clr-blk");
-  // moviePoster.classList.remove('movie-name-clr-blk');
-  // moviePoster.style.color = "white";
-  // lightTheme.style.color = "white";
-  // darkTheme.style.color = "white";
-  // navContainerLinks.classList.remove('nav-container-link-clr-blk');
+  mainHeader.classList.add("main-header-clr-blk");
+  
 }
 
 function changeClassColorWhite() {

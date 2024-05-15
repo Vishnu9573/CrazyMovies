@@ -179,6 +179,10 @@ i {
   color: var(--clr-black);
 }
 
+.main-header.main-header-clr-blk {
+  background-image: url(https://i.gifer.com/origin/2c/2cba4b48c7f195c0eeda68b0d35937d0_w200.gif) !important;
+}
+
 .movies-lang.movies-lang-clr-blk nav ul li {
   color: var(--clr-black) !important;
 }
