@@ -298,7 +298,7 @@ function darkThemeColor() {
   footer.classList.remove("footer-background-clr-blk");
   footerTextColor.classList.remove("footer-text-clr-blk");
   subHeader.classList.remove("sub-header-clr-blk");
-  mainHeader.classList.add("main-header-clr-blk");
+  mainHeader.classList.remove("main-header-clr-blk");
   
 }
 
