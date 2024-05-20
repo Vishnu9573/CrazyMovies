@@ -60,7 +60,7 @@ header {
   background-color: rgb(34, 33, 33);
   position: fixed;
   z-index: 3;
-  border-bottom: 3px solid linear-gradient(grey, white);
+  border-bottom: 3px solid var(--clr-lime);
   transition: 0.6s;
 }
 
