@@ -639,6 +639,7 @@ footer {
   }
 
   #gallery .year .image .release-year {
+    height: auto !important;
     font-size: 7px;
     padding: 2px 5px;
   }
