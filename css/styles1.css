@@ -60,7 +60,7 @@ header {
   background-color: rgb(34, 33, 33);
   position: fixed;
   z-index: 3;
-  border-bottom: 3px solid var(--clr-lime);
+  border-bottom: 2px solid var(--clr-lime);
 }
 
 header nav {
@@ -485,7 +485,7 @@ footer {
   background-color: rgb(34, 33, 33);
   position: fixed;
   bottom: 0;
-  border-top: 1px solid var(--clr-lime);
+  border-top: 2px solid var(--clr-lime);
   transition: 0.6s;
 }
 
