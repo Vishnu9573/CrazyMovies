@@ -360,8 +360,8 @@ i {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); /* Adjust the width of columns as per your requirement */
   grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
-  column-gap: 25px;
-  row-gap: 20px;
+  column-gap: 30px;
+  row-gap: 60px;
 }
 
 /* #gallery .year .image {
