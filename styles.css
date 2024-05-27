@@ -30,6 +30,7 @@
 img, .release-year, #movie-languages nav ul li a {
   -webkit-user-select: none;
   user-select: none;
+  -webkit-user-drag: none;
 }
 
 ::placeholder {
