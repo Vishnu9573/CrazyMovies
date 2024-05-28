@@ -419,6 +419,7 @@ i {
   background: rgb(61, 61, 61);
   width: -moz-fit-content;
   width: fit-content;
+  height: 25px;
   padding: 0 5px;
   border-radius: 3px;
   font-size: 13px;
