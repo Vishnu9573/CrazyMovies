@@ -810,8 +810,8 @@ footer {
   }
 
   i {
-    text-shadow: 0.1px 0.1px 5px var(--clr-white);
-    color: var(--clr-white);
+    text-shadow: 0.1px 0.1px 5px var(--clr-lime);
+    color: var(--clr-lime);
     margin-right: 5px;
   }
 
