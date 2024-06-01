@@ -10,6 +10,7 @@
 }
 
 :root {
+  --clr-background: #0f0f0f;
   --clr-black: black;
   --clr-greyish: rgb(31, 31, 31);
   --clr-greyish1: rgb(39, 39, 39);
@@ -17,10 +18,16 @@
   --clr-grey: grey;
   --clr-white: white;
   --clr-ghostwhite: ghostwhite;
-  --clr-limergb: rgb(106, 255, 0);
+  --clr-limehex: #6aff00;
+  --clr-limergba: rgba(0, 255, 0, 0.9);
+  --clr-cyanrgba: rgba(0, 255, 242, 0.9);
+  --clr-limergba2: rgba(0, 255, 0, 0.2);
+  --clr-cyanrgba2: rgba(0, 255, 242, 0.2);
   --clr-lime: lime;
   --clr-darktheme: rgb(148, 148, 148);
   --clr-yellow: yellow;
+  --clr-cyan: cyan;
+  --clr-cyanhex: #00fff7;
 }
 
 /* ::-webkit-scrollbar {
@@ -40,8 +47,8 @@ img, .release-year, #movie-languages nav ul li a {
 }
 
 ::selection {
-  background-color: rgba(0, 255, 0, 0.9);
-  color: white;
+  background-color: var(--clr-cyanrgba);
+  color: var(--clr-white);
 }
 
 html {
@@ -61,7 +68,7 @@ header {
   background-color: rgb(34, 33, 33);
   position: fixed;
   z-index: 3;
-  border-bottom: 2px solid var(--clr-lime);
+  border-bottom: 2px solid var(--clr-cyan);
   transition: 0.2s;
 }
 
@@ -95,8 +102,8 @@ header nav ul li a {
 
 header nav ul li a:hover, .clr-btn1:hover, .clr-btn2:hover {
   /* color: black; */
-  border-color: var(--clr-limergb);
-  background-color: rgba(0, 255, 0, 0.2);
+  border-color: var(--clr-cyanhex);
+  background-color: var(--clr-cyanrgba2);
 }
 
 .icon3,
@@ -105,8 +112,8 @@ header nav ul li a:hover, .clr-btn1:hover, .clr-btn2:hover {
 }
 
 i {
-  text-shadow: 0.1px 0.1px 5px var(--clr-lime);
-  color: var(--clr-lime);
+  text-shadow: 0.1px 0.1px 5px var(--clr-cyan);
+  color: var(--clr-cyan);
   margin-right: 5px;
 }
 
@@ -118,7 +125,7 @@ i {
   padding: 5px;
   background: none;
   border: 1px solid transparent;
-  color: white;
+  color: var(--clr-white);
   border-radius: 3px;
 }
 
@@ -130,7 +137,7 @@ i {
   padding: 5px;
   background: none;
   border: 1px solid transparent;
-  color: white;
+  color: var(--clr-white);
   border-radius: 3px;
 }
 
@@ -143,12 +150,14 @@ i {
   outline: none;
   background: var(--clr-white);
   color: var(--clr-black);
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--clr-white);
   border-radius: 5px;
   padding: 0 5px;
 }
 
-/* light theme css code starts */
+/* light
+--clr-cyan: cyan;
+--clr-cyanrgb:  theme css code starts */
 
 .body.body-clr-blk {
   color: rgb(31, 31, 31);
@@ -408,7 +417,7 @@ i {
   /* text-align: center; */
   position: relative;
   top: -2px;
-  color: white;
+  color: var(--clr-white);
   font-family: gurajada;
   font-size: 25px;
   z-index: -1;
@@ -416,7 +425,7 @@ i {
 }
 
 #gallery .year .release-year {
-  color: var(--clr-lime);
+  color: var(--clr-cyan);
   font-family: coda;
   background: rgb(61, 61, 61);
   width: -moz-fit-content;
@@ -470,7 +479,7 @@ h2 {
 }
 
 #menu-button i {
-  background: var(--clr-lime);
+  background: var(--clr-cyan);
   border: 2px solid var(--clr-yellow);
   padding: 5px;
   border-radius: 4px;
@@ -490,7 +499,7 @@ footer {
   background-color: rgb(34, 33, 33);
   position: fixed;
   bottom: 0;
-  border-top: 2px solid var(--clr-lime);
+  border-top: 2px solid var(--clr-cyan);
   transition: 0.6s;
 }
 
@@ -688,7 +697,7 @@ footer {
     outline: none;
     font-size: 15px;
     font-family: laila, sans-serif;
-    color: white;
+    color: var(--clr-white);
   }
 
   .clr-btn1, .clr-btn2 {
@@ -806,7 +815,7 @@ footer {
     outline: none;
     font-size: 15px;
     font-family: laila, sans-serif;
-    color: var(--clr-lime);
+    color: var(--clr-cyan);
   }
 
   .clr-btn1, .clr-btn2 {
@@ -814,8 +823,8 @@ footer {
   }
 
   i {
-    text-shadow: 0.1px 0.1px 5px var(--clr-lime);
-    color: var(--clr-lime);
+    text-shadow: 0.1px 0.1px 5px var(--clr-cyan);
+    color: var(--clr-cyan);
     margin-right: 5px;
   }
 

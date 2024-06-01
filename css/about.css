@@ -6,6 +6,27 @@
     padding: 0;
 }
 
+:root {
+  --clr-background: #0f0f0f;
+  --clr-black: black;
+  --clr-greyish: rgb(31, 31, 31);
+  --clr-greyish1: rgb(39, 39, 39);
+  --clr-header: rgb(34, 33, 33);
+  --clr-grey: grey;
+  --clr-white: white;
+  --clr-ghostwhite: ghostwhite;
+  --clr-limehex: #6aff00;
+  --clr-limergba: rgba(0, 255, 0, 0.9);
+  --clr-cyanrgba: rgba(0, 255, 242, 0.9);
+  --clr-limergba2: rgba(0, 255, 0, 0.2);
+  --clr-cyanrgba2: rgba(0, 255, 242, 0.2);
+  --clr-lime: lime;
+  --clr-darktheme: rgb(148, 148, 148);
+  --clr-yellow: yellow;
+  --clr-cyan: cyan;
+  --clr-cyanhex: #00fff7;
+}
+
 ::selection {
     background-color: rgba(86, 255, 86, 0.9);
     color: white;
@@ -51,7 +72,7 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
-    color: white;
+    color: var(--clr-white);
     margin-top: 6px;
     font-family: laila, sans-serif;
 }
@@ -67,8 +88,8 @@ header nav ul li a {
 
 header nav ul li a:hover {
     /* color: black; */
-    border-color: rgb(106, 255, 0);
-    background-color: rgba(0, 255, 0, 0.2);
+    border-color: var(--clr-cyanhex);
+    background-color: var(--clr-cyanrgba2);
 }
 
 .icon3, .icon2 {
@@ -76,8 +97,8 @@ header nav ul li a:hover {
 }
 
 i {
-    color: lime;
-    text-shadow: 0.1px 0.1px 5px lime;
+    color: var(--clr-cyan);
+    text-shadow: 0.1px 0.1px 5px var(--clr-cyan);
     margin-right: 5px;
 }
 
@@ -105,7 +126,7 @@ i {
 }
 
 #paragraph .paragraph-1 {
-    color: white;
+    color: var(--clr-white);
     font-family: fredoka;
 }
 
@@ -190,7 +211,7 @@ i {
     }
     
     .sidebar-links li {
-        color: white;
+        color: var(--clr-white);
         list-style: none;
     }
     
