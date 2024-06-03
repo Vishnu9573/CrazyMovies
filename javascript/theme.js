@@ -8,6 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const moviesLang = document.querySelector(".movies-lang");
   const footerTextColor = document.querySelector(".footer-text");
   const mainHeader = document.querySelector(".main-header");
+  const moviePoster = document.getElementsByClassName("content");
+  const navcontainerLinks = document.querySelectorAll(".nav-container-links");
+  const light = document.querySelector(".light-theme");
+  const dark = document.querySelector(".dark-theme");
+  const footer = document.querySelector(".footer");
+  const subHeader = document.querySelector(".sub-header");
+  const header = document.querySelector(".header");
+  const sidebarContainer = document.querySelector(".sidebar-container");
 
   function applyLightTheme() {
     body.classList.add("body-clr-blk");
@@ -17,6 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (navContainer) navContainer.classList.add("nav-container-clr-blk");
     if (moviesLang) moviesLang.classList.add("movies-lang-clr-blk");
     if (footerTextColor) footerTextColor.classList.add("footer-text-clr-blk");
+    if (footer) footer.classList.add("footer-background-clr-blk");
+    if (subHeader) subHeader.classList.add("sub-header-clr-blk");
+    if (header) header.classList.add("header-clr-blk");
+    if (sidebarContainer) sidebarContainer.classList.add("sidebar-container-clr-blk");
     changeClassColorWhite();
   }
 
