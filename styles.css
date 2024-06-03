@@ -314,7 +314,7 @@ i {
 
 #movie-languages nav ul li a:hover {
   color: var(--clr-black);
-  background-color: rgb(225, 255, 0);
+  background-color: var(--clr-cyan);
 }
 
 /* navigation for languages end's */
