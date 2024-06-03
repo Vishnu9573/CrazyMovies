@@ -39,8 +39,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (sidebarLinks) sidebarLinks.classList.remove("sidebar-clr-blk");
     if (navContainer) navContainer.classList.remove("nav-container-clr-blk");
     if (moviesLang) moviesLang.classList.remove("movies-lang-clr-blk");
-    if (footerTextColor)
-      footerTextColor.classList.remove("footer-text-clr-blk");
+    if (footerTextColor) footerTextColor.classList.remove("footer-text-clr-blk");
+    if (footer) footer.classList.remove("footer-background-clr-blk");
+    if (subHeader) subHeader.classList.remove("sub-header-clr-blk");
+    if (header) header.classList.remove("header-clr-blk");
+    if (sidebarContainer) sidebarContainer.classList.remove("sidebar-container-clr-blk");
     changeClassColorBlack();
   }
 
