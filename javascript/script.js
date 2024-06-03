@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const subHeader = document.querySelector(".sub-header");
 function changeText() {
-  subHeader.innerHTML = "Enjoy your favorite movies in all languages 💚";
+  subHeader.innerHTML = "Enjoy your favorite movies in all languages 🩵";
 }
 changeText();
 
@@ -349,7 +349,7 @@ function selectLightTheme() {
 
  light.addEventListener("click", selectLightTheme);
  dark.addEventListener("click", selectDarkTheme);
- 
+
  // Apply the saved theme on page load
  document.addEventListener("DOMContentLoaded", () => {
    const savedTheme = localStorage.getItem("theme");
