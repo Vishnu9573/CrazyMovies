@@ -709,7 +709,7 @@ footer {
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
   header {
-    border-bottom: 2px solid var(--clr-cyan);
+    border-bottom: 2px solid var(--clr-cyan) !important;
   }
 
   .nav-container {
@@ -829,7 +829,7 @@ footer {
 
   i {
     text-shadow: 0.1px 0.1px 5px var(--clr-cyan);
-    color: var(--clr-lime);
+    color: var(--clr-cyan);
     margin-right: 5px;
   }
 
