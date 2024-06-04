@@ -439,7 +439,7 @@ function selectLightTheme() {
 
 
 
-
+const preLoader = document.querySelector('.preloader');
 window.addEventListener('load', function() {
-    document.querySelector('.preloader').style.display = 'none';
+    preLoader.style.display = 'none';
 });
