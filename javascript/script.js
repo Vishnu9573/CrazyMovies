@@ -435,3 +435,12 @@ function selectLightTheme() {
 
 // light.addEventListener("click", selectAllLightTheme);
 // dark.addEventListener("click", selectAllDarkTheme);
+
+
+
+
+
+
+window.addEventListener('load', function() {
+    document.querySelector('.preloader').style.display = 'none';
+});
