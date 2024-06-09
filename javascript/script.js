@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!anyVisible && searchTerm !== "") {
       movies.forEach(function (movie) {
         movie.style.display = "none";
-        movie.style.width = "270px";
+        movie.style.width = "210px";
       });
     }
   });
