@@ -444,3 +444,28 @@ const preLoader = document.querySelector('.preloader');
 window.addEventListener('load', function() {
     preLoader.style.display = 'none';
 });
+
+
+
+
+
+(function () {
+  const element = new Image();
+  let devtoolsOpen = false;
+
+  Object.defineProperty(element, "id", {
+    get: function () {
+      devtoolsOpen = true;
+      window.location = "about:blank"; // Redirect or take any action
+    },
+  });
+
+  setInterval(function () {
+    devtoolsOpen = false;
+    console.log(element);
+    if (devtoolsOpen) {
+      alert("Developer tools are not allowed on this website.");
+      window.location = "about:blank"; // Redirect or take any action
+    }
+  }, 1000);
+})();
